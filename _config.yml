@@ -12,11 +12,11 @@ url: "https://neildmorris.com"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl: /neildmorris.github.io
 
 # Google tracking id
 
-google-tracking-id: ""
+google-tracking-id: "UA-109888409-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -31,7 +31,7 @@ force-https: True
 lang: "en"
 author: "Neil D. Morris"
 title: "{ Neil D. Morris }"
-description: "Personal website of Neil D. Morris::  infrastructure programmer, Devops guru, teacher"
+description: "Personal website for Neil D. Morris; programmer, Devops guru, professor, IRONMAN"
 keywords: "website, jekyll, github-page, devops, aws, infrastructure-as-code, terraform, docker, packer, cicd"
 favicon: "/img/favicon.ico"
 
