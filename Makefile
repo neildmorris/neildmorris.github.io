@@ -25,3 +25,7 @@ jekyll\:generate-categories:
 .PHONY: jekyll\:integrate-personal
 jekyll\:integrate-personal:
 	./scripts/integrate-personal
+
+.PHONY: jekyll\:build
+jekyll\:build:
+	./scripts/build

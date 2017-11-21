@@ -11,3 +11,6 @@ my personal website
 1. Hosted with [GitHub Pages](https://pages.github.com/)
 1. CDN by [CloudFlare](https://www.cloudflare.com/)
 1. Monitoring by [UptimeRobot](http://uptimerobot.com/)
+
+## Credit
+[Ie4ker](https://github.com/le4ker/personal-jekyll-theme) for the Jekyll theme
