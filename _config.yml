@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://le4ker.github.io"
+url: "https://neildmorris.com"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Neil D. Morris"
+title: "{ Neil D. Morris }"
+description: "Personal website of Neil D. Morris::  infrastructure programmer, Devops guru, teacher"
+keywords: "website, jekyll, github-page, devops, aws, infrastructure-as-code, terraform, docker, packer, cicd"
 favicon: "/img/favicon.ico"
 
 ################
@@ -55,8 +55,16 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "The most technologically efficient machine that man has ever invented is the book. – Northrop Frye"
+  - text: "Just because something doesn’t do what you planned it to do doesn’t mean it’s useless. – Thomas Edison"
+  - text: "It has become appallingly obvious that our technology has exceeded our humanity. – Albert Einstein"
+  - text: "One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man. – Elbert Hubbard"
+  - text: "Technology is a word that describes something that doesn’t work yet. – Douglas Adams"
+  - text: "All this modern technology just makes people try to do everything at once. – Bill Watterson"
+  - text: "We are stuck with technology when what we really want is just stuff that works. – Douglas Adams"
+  - text: "Humanity is acquiring all the right technology for all the wrong reasons. – R. Buckminster Fuller"
+  - text: "It’s supposed to be automatic, but actually you have to push this button. – John Brunner"
+  - text: "Books may look like nothing more than words on a page, but they are actually an infinitely complex imaginotransference technology that translates odd, inky squiggles into pictures inside your head. – Jasper Fforde"
 
 me-img: "/img/jetpacktocat.png"
 
@@ -122,7 +130,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "neildmorris"
 
 syntax-highlight: True
 
@@ -165,13 +173,11 @@ author_blurb_image: "/img/author.png"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
+    url: "https://facebook.com/neildmorris"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/neildmorris"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/neildmorris"
   - title: "rss"
     url: "/feed.xml"
 
@@ -185,7 +191,7 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
+keybase-username: neildmorris
 keybase-in-social: True
 keybase-in-footer: True
 
