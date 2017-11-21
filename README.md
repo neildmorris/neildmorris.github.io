@@ -3,8 +3,8 @@ my personal website
 
 ## Quick start
 1. clone this repo
-1. install jekyll ```./scripts/install```
-1. serve it ```./scripts/serve```
+1. install jekyll ```make jekyll:install```
+1. serve it ```make jekyll:serve```
 
 ## Technologies
 1. Built with [Jekyll](http://jekyllrb.com/)
