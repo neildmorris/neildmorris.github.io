@@ -8,4 +8,4 @@ script: jekyll serve --baseurl "" --detach && htmlproofer ./_site --disable-exte
 
 env:
   global:
-- NOKOGIRI_USE_SYSTEM_LIBRARIES=true JEKYLL_ENV=production
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true JEKYLL_ENV=production
