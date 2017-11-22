@@ -57,7 +57,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
 #  - text: "Your awsome quote goes here"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/author.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -130,16 +130,25 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/DigitalGlobe.png"
+    date: "2016 - Present"
+    description: "Devops guru"
+  - image: "/img/timeline/ADT.jpg"
+    date: "2010 - 2016"
+    description: "IOT Expert"
+  - image: "/img/timeline/TATA.png"
+    date: "2008 - 2010"
+    description: "Senior Architect"
+  - image: "/img/timeline/IBM.png"
+    date: "2006-2008"
+    description: "Global Services Consultant"
+  - image: "/img/timeline/Apollo.gif"
+    date: "2000 - 2006"
+    description: "Senior Engineer"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/self.png"
 
 ###########
 # Contact #
@@ -163,10 +172,10 @@ author_blurb_image: "/img/author.png"
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/neildmorris"
-  - title: "twitter"
-    url: "https://twitter.com/neildmorris"
+#  - title: "facebook"
+#    url: "https://facebook.com/neildmorris"
+#  - title: "twitter"
+#    url: "https://twitter.com/neildmorris"
   - title: "github"
     url: "https://github.com/neildmorris"
   - title: "rss"
