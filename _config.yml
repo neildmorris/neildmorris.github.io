@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://neildmorris.com"
+url: "http://neildmorris.com"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,7 +12,7 @@ url: "https://neildmorris.com"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /neildmorris.github.io
+baseurl: /
 
 # Google tracking id
 
@@ -22,7 +22,7 @@ google-tracking-id: "UA-109888409-1"
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: True
+force-https: False
 
 #############
 # HTML Head #
@@ -31,7 +31,7 @@ force-https: True
 lang: "en"
 author: "Neil D. Morris"
 title: "{ Neil D. Morris }"
-description: "Personal website for Neil D. Morris; programmer, Devops guru, professor, IRONMAN"
+description: "Personal website for Neil D. Morris; programmer, devops guru, sensi, professor, IRONMAN"
 keywords: "website, jekyll, github-page, devops, aws, infrastructure-as-code, terraform, docker, packer, cicd"
 favicon: "/img/favicon.ico"
 
@@ -47,7 +47,7 @@ background-img: "../img/intro-bg.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
+dynamic-typing: False
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
@@ -55,16 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The most technologically efficient machine that man has ever invented is the book. – Northrop Frye"
-  - text: "Just because something doesn’t do what you planned it to do doesn’t mean it’s useless. – Thomas Edison"
-  - text: "It has become appallingly obvious that our technology has exceeded our humanity. – Albert Einstein"
-  - text: "One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man. – Elbert Hubbard"
-  - text: "Technology is a word that describes something that doesn’t work yet. – Douglas Adams"
-  - text: "All this modern technology just makes people try to do everything at once. – Bill Watterson"
-  - text: "We are stuck with technology when what we really want is just stuff that works. – Douglas Adams"
-  - text: "Humanity is acquiring all the right technology for all the wrong reasons. – R. Buckminster Fuller"
-  - text: "It’s supposed to be automatic, but actually you have to push this button. – John Brunner"
-  - text: "Books may look like nothing more than words on a page, but they are actually an infinitely complex imaginotransference technology that translates odd, inky squiggles into pictures inside your head. – Jasper Fforde"
+#  - text: "Your awsome quote goes here"
 
 me-img: "/img/jetpacktocat.png"
 
@@ -119,16 +110,16 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
-fb-share: True
-twitter-share: True
+email-share: False
+fb-share: False
+twitter-share: False
 linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+reddit-share: False
+google-plus-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
 disqus-shortname: "neildmorris"
 
@@ -164,7 +155,7 @@ email: "neil.daren.morris@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Programmer, Devop guru, professor, husband, father, sensi, IRONMAN"
+author_blurb: "programmer, devop guru, professor, sensi, IRONMAN"
 author_blurb_image: "/img/author.png"
 
 ##################
