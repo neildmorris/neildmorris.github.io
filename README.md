@@ -8,8 +8,9 @@ This is the code for the [https://neildmorris.com](https://neildmorris.com). [![
 1. serve it ```make jekyll:serve```
 
 ## Technologies
-1. Built with [Jekyll](http://jekyllrb.com/)
+1. Site is built with [Jekyll](http://jekyllrb.com/)
 1. Comments by [Disqus](https://disqus.com/)
+1. Contact form is using [Formspree](https://formspree.io/)
 1. Hosted with [GitHub Pages](https://pages.github.com/)
 1. CDN by [CloudFlare](https://www.cloudflare.com/)
 1. Monitoring by [UptimeRobot](http://uptimerobot.com/)
