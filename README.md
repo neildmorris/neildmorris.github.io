@@ -1,4 +1,4 @@
-This is the code for the [https://neildmorris.com](https://neildmorris.com).
+This is the code for the [https://neildmorris.com](https://neildmorris.com). [![Travis](https://img.shields.io/travis/neildmorris/neildmorris.github.io.svg)]()
 
 ![https://neildmorris.com screenshot](/img/Capture.PNG)
 
