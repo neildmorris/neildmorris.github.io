@@ -1,5 +1,6 @@
-# neildmorris.github.io
-my personal website
+This is the code for the [https://neildmorris.com](https://neildmorris.com). [![Travis](https://img.shields.io/travis/neildmorris/neildmorris.github.io.svg)]()
+
+![https://neildmorris.com screenshot](/img/Capture.PNG)
 
 ## Quick start
 1. clone this repo
