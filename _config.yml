@@ -31,7 +31,7 @@ force-https: False
 lang: "en"
 author: "Neil D. Morris"
 title: "{ Neil D. Morris }"
-description: "Personal website for Neil D. Morris; programmer, devops guru, sensi, professor, IRONMAN"
+description: "Personal website for Neil D. Morris; security professional, programmer, devops guru, sensi, professor, IRONMAN"
 keywords: "website, jekyll, github-page, devops, aws, infrastructure-as-code, terraform, docker, packer, cicd"
 favicon: "/img/favicon.ico"
 
@@ -121,7 +121,7 @@ pinterest-share: False
 pocket-share: False
 vkontakte-share: False
 
-disqus-shortname: "neildmorris"
+disqus-shortname: "neildmorris-com"
 
 syntax-highlight: True
 
