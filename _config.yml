@@ -132,19 +132,80 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/DigitalGlobe.png"
     date: "2016 - Present"
-    description: "Devops guru"
+    description: "[{
+		\"Company\": \"<a href=\"https://www.digitalglobe.com\" target=\"_blank\">DigitalGlobe</a>\"
+	},
+	{
+		\"Title\": \"Domain Architect\"
+	},
+	{
+		\"Role\": \"Devops guru\"
+	},
+	{
+		\"Responsibilities\": \"Migrating PB Scale areospace and satelite imagery workloads to the cloud security\"
+	}
+]"
   - image: "/img/timeline/ADT.jpg"
     date: "2010 - 2016"
-    description: "IOT Expert"
+    description: "[{
+		\"Company\": \"<a href=\"https://www.adt.com\" target=\"_blank\">ADT</a>\"
+	},
+	{
+		\"Title\": \"Senior Architect\"
+	},
+	{
+		\"Role\": \"IOT guru\"
+	},
+	{
+		\"Responsibilities\": \"Deploying the next generation in life saftey solutions in the cloud\"
+	}
+]"
   - image: "/img/timeline/TATA.png"
     date: "2008 - 2010"
-    description: "Senior Architect"
+    description: "[{
+		\"Company\": \"<a href=\"https://www.tatacommunications.com\" target=\"_blank\">TATA Communications</a>\"
+	},
+	{
+		\"Title\": \"Solutions Architect\"
+	},
+	{
+		\"Role\": \"Master Builder\"
+	},
+	{
+		\"Responsibilities\": \"Devleoping cloud service offerings for Fortune 100 customers around the globe\"
+	}
+]"
   - image: "/img/timeline/IBM.png"
     date: "2006-2008"
-    description: "Global Services Consultant"
+    description: "[{
+		\"Company\": \"<a href=\"https://www.ibm.com\" target=\"_blank\">IBM</a>\"
+	},
+	{
+		\"Title\": \"Solutions Specialist\"
+	},
+	{
+		\"Role\": \"Maven\"
+	},
+	{
+		\"Responsibilities\": \"Advancing the ecosystem of global hosted solutions\"
+	}
+]"
   - image: "/img/timeline/Apollo.gif"
     date: "2000 - 2006"
-    description: "Senior Engineer"
+    description: "[{
+		\"Company\": \"<a href=\"https://www.apollo.edu\" target=\"_blank\">The Apollo Group</a>\"
+	},
+	{
+		\"Title\": \"Senior Engineer\"
+	},
+	{
+		\"Role\": \"Chief Doer\"
+	},
+	{
+		\"Responsibilities\": \"Actualizing solutions for the advancement of knowledge\"
+	}
+]"
+
 
 # First image of the Timeline
 
