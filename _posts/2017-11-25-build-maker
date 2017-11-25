@@ -1,0 +1,38 @@
+---
+layout: post
+section-type: post
+title: build-maker
+category: tech
+tags: [ 'tech' 'github' 'Makefile' 'CICD' ]
+---
+
+I just released v1.0.0 of what I called [build-maker](https://github.com/neildmorris/build-maker).  It is a fork from [build-harness](https://github.com/cloudposse/build-harness) which is set of Makefiles which I have started to include expend and leverage in many of my CICD pipelines.
+
+## What is it
+It is a tool to download Makefiles and include them at runtime allowing me to author a Makefile once and use it everywhere
+
+## How do you use it
+Create a Makefile in your projects root directory with the following at the top
+```
+-include $(shell curl -o .build-maker "https://raw.githubusercontent.com/neildmorris/build-maker/master/Makefile?ref=1.0.0)
+```
+Create a file called `requirements.build-maker` and list which 'modules' aka:Makefiles you need for your projects
+```
+make init
+```
+That will `init` the build-maker
+1. creats a .build-maker.d/ directory
+1. downloads the requested Makefile into the directory
+
+## Why build it
+Using `build-maker` I make pipelines simple
+EXAMPLE:
+`make init`
+`make terraform:exec`
+
+rather then writing complex, or worse, redundant code in my pipeline files.  I've seen a lot of pipeline which look the same.  This method splits out the task _TARGETS_ and the associated bash, python, ruby ... from the pipeline making updating those scripts a centralized task.
+
+## Why fork
+1. The original [build-harness](https://github.com/cloudposse/build-harness) cloned the repo and included all the Makefile.  I wanted to be more selective on which Makefile to include.  So I introduced the requriements.build-maker file
+1. I did not want to build a dependency on a repository out of my control.  So even when I do not change anything, I tend to fork the repo and source that fork.  Repo can be made private or deleted, I did not want to chance that happening if I was going to use it in production.
+1. I wanted to use versions.  Notice in the -include `Makefile?ref=v1.0.0` to download a specific version.  v1.0.0 still needs some work to be able to do the same for the individual modules, but I don't want to use `latest` or be subject to some change impacting production.  ALWAYS use versioned numbers in PROD.  
