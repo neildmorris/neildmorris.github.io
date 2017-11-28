@@ -2,7 +2,7 @@
 
 set -e
 
-DEPLOY_REPO="https://${GH_TOKEN}@github.com/neidmorris/neildmorris.github.io.git"
+DEPLOY_REPO="https://${GH_TOKEN}@github.com/neildmorris/neildmorris.github.io.git"
 
 function main {
 	clean
