@@ -6,14 +6,16 @@ branches:
 
 language: ruby
 
+cache: bundler
+
 rvm:
 - 2.2.3
 
-before_script:
-  - chmod +x ./scripts/cibuild
+install:
+  - bundle install
 
 script:
-  - ./scripts/cibuild
+  - ./scripts/build.sh
 
 exclude: [vendor]
 
