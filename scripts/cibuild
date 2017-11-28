@@ -18,6 +18,7 @@ git clone https://${GH_TOKEN}@github.com/neildmorris/neildmorris.github.io.git -
 
 # build with Jekyll into "_site"
 bundle exec jekyll build
+bundle exec htmlproofer ./_site --disable-external
 
 # push
 cd _site
